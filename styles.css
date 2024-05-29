@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #007bff;
+}
+
+header h2 {
+    color: #5dc1b9;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section ul li.principal {
+    border-left: 5px solid #007bff;
+}
+
+.candidate-card {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%; /* Make the image container round */
+    margin-right: 15px;
+    border: 1px solid #ccc;
+}
+
+.candidate-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 50%; /* Make the image itself round */
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    color: #777;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#resetButton {
+    background-color: #dc3545;
+}
+
+#resetButton:hover {
+    background-color: #c82333;
+}
+
+#candidates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.candidate-card p {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative; /* Añade posición relativa para que el icono de Instagram se pueda posicionar de manera absoluta */
+}
+
+header a {
+    position: absolute; /* Posiciona el enlace de Instagram de manera absoluta dentro del header */
+    top: 10px; /* Distancia desde la parte superior */
+    right: 10px; /* Distancia desde la derecha */
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    max-width: 100px; /* Ajusta el ancho máximo según tu preferencia */
+    height: auto;
+}
+
+.title {
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    max-width: 100px; /* Ajusta el ancho máximo según tu preferencia */
+    height: auto;
+}
+
+.title {
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    color: #000000; /* Cambia el color de los iconos */
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    max-width: 200px; /* Ajusta el ancho máximo según tu preferencia */
+    height: auto;
+}
+
+.title {
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin-left: 10px; /* Espacio entre los enlaces de las redes sociales */
+}
+
+.social-icons img {
+    width: 36px; /* Ajusta el tamaño de las imágenes según tu preferencia */
+    height: auto;
+}
